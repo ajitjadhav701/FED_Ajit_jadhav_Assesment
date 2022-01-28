@@ -1,0 +1,14 @@
+/* first need to hide all paragraph */
+
+.para1 {
+    display: none;
+}
+
+.accordian{
+    background-color: antiquewhite;
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+    transition: 0.5s;
+
+}

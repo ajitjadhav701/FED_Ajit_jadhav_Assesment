@@ -1,0 +1,155 @@
+
+
+
+
+body {
+        margin: 0;
+        font-family: var(--bs-body-font-family);
+    }
+.container{
+    margin: 0 auto;
+    padding: 0 3rem;
+    max-width: 1200px;
+
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.left-nav{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.middle-link{
+    color: #444;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.right-header{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.buy-now-btn{
+ background-color: blue;
+ color: white;
+ padding: 5px 10px;
+ border-radius: 10px;
+}
+
+.separator1{
+    background-color: blue;
+}
+.sect1{
+    display: flex;
+    padding: 30px 0;
+    
+
+}
+
+.sect1-heading{
+    color: white;
+    font-size: 2.5rem;
+}
+.sect1-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.image300x596{
+    border-radius: 20px;
+}
+
+.logos{
+    display: flex;
+    gap: 10px;
+}
+.sect1-img{
+   border-radius: 20px;
+}
+
+.sect2-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.sec2-box{
+    width: 33%;
+    text-align: center;
+}
+.sect2-img{
+    border-radius: 50%;
+    
+}
+
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.sec3-box{
+    width: 40%;
+    background-color: wheat;
+    align-content: center;
+    text-align: center;
+    
+}
+.seperator2{
+    background-color: #999;
+}
+
+.sect4{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.sect4-head{
+    text-align: center;
+
+}
+.sect4-boxes{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sect4-box{
+    text-align: center;
+    width: 298px;
+    height: 240px;
+align-self: center;
+}
+
+.sect5{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+   align-items: center;
+   padding: 30px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.sect-foot{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
